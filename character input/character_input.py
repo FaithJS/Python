@@ -1,4 +1,4 @@
-print("CHARACTER INPUT\n\nCreate a program that asks the user to enter their name and their age. Print out a message addressed to them that tells them the year that they will turn 100 years old.\n")
+print("CHARACTER INPUT\n\n)
 
 import datetime
 date = datetime.datetime.now()
@@ -6,7 +6,7 @@ print("The year is",str(date.year)+".\n") # TEST
 
 user_name = input("What is your name? ")
 while True: # name validations
-    if user_name.isalpha():
+	if user_name.isalpha():
         break
     elif user_name == "": 
         user_name = input("Please enter your name. ")
